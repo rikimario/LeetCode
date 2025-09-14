@@ -7,7 +7,7 @@ function increasingTriplet(nums) {
       first = nums[i];
     } else if (nums[i] <= second) {
       second = nums[i];
-    } else if (nums[i] > first && nums[i] > second) {
+    } else {
       return true;
     }
   }
